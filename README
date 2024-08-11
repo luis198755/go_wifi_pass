@@ -1,0 +1,31 @@
+# Go WiFi Password Generator
+
+This repository contains a simple Go program, `wifipassgen.go`, designed to generate random and secure passwords suitable for WiFi networks. 
+
+## Features
+
+* **Customizable Password Length:** Easily define the desired length of the generated password.
+* **Character Set Options:** Choose from different character sets for password generation, including:
+    * Alphanumeric characters (uppercase and lowercase)
+    * Numbers
+    * Special characters 
+* **Secure Randomness:**  The password generation process utilizes Go's cryptographically secure random number generator for strong and unpredictable passwords. 
+* **Copy to Clipboard Functionality (Optional):**  Provides the option to automatically copy the generated password to the clipboard for easy use.
+* **Command-Line Interface:**  Simple and intuitive command-line interface for ease of use. 
+
+## Getting Started
+
+### Prerequisites
+
+* **Go Programming Language:**  Ensure you have Go installed on your system. Download and install it from [https://go.dev/](https://go.dev/) if you don't have it already.
+
+### Installation
+
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/your-username/go_wifi_pass.git
+   cd go_wifi_pass
+
+2. **Build the Executable:**
+   ```bash
+   go build wifipassgen.go
